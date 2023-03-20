@@ -1,0 +1,101 @@
+*, *::after, *::before{
+
+    box-sizing: content-box;
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px 18px;
+    padding: 10px;
+}
+
+.card{
+
+    width: 250px;
+    min-height: 350px;
+    height: auto;
+    /* border: 2px solid black; */
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, .7);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-top: 4px;
+    margin-top: 10px;
+}
+
+.img{
+
+    width: 200px;
+    height: 175px;
+    display: flex;
+    margin: 0px auto;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.star_filled{
+
+    color: yellow;
+    
+}
+
+.details{
+
+    padding: 10px;
+    /* border: 1px solid black; */
+    min-height: 120px;
+    height: auto;
+}
+
+.product_name{
+
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.product_category{
+
+    display: block;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.all_stars{
+
+    margin-top: 5px;
+}
+
+.rating_count{
+
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.btn{
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.btn-buy{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    box-shadow: -2px 2px 1px .2px rgba(0, 0, 0, .7);
+    font-weight: bold;
+}
+
